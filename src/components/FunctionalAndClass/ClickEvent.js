@@ -18,6 +18,7 @@
 
 // class component (2)
 import React, { Component } from 'react';
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 class ClickEventClass extends Component {
 
@@ -28,7 +29,7 @@ class ClickEventClass extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.clickBtn}>Class Button</button>
+                <button className="btn btn-primary m-5" onClick={this.clickBtn}>Class Button</button>
             </div>
         )
     }

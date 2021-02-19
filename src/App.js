@@ -6,6 +6,8 @@ import './App.css';
 // import ClassComponent from './components/FunctionalAndClass/ClassComponent';
 // ClickEvent import here
 // import ClickEvent from './components/FunctionalAndClass/ClickEvent';
+// Arrow function import
+import Arrow from './components/FunctionalAndClass/Arrow';
 
 
 function App() {
@@ -37,6 +39,13 @@ function App() {
   //     <ClickEvent />
   //   </div>
   // )
+
+  // Arrow function
+  return (
+    <div>
+      <Arrow />
+    </div>
+  )
 }
 
 export default App;
