@@ -13,7 +13,9 @@ import './App.css';
 // import renderAndHydrate file here
 // import RenderAndHydrate from './components/reactDom/renderAndhydrate'
 // import findDOMNode file here
-import FindDOMNode from './components/reactDom/findDOMNode';
+// import FindDOMNode from './components/reactDom/findDOMNode';
+// import Form file here
+import Form from './components/Form/Form'
 
 
 function App() {
@@ -68,7 +70,11 @@ function App() {
   // )
 
   // findDOMNode
-  return (<div><FindDOMNode /></div>)
+  // return (<div><FindDOMNode /></div>)
+
+  // form
+  return (<div><Form /></div>)
+
 
 
 }
