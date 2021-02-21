@@ -9,7 +9,11 @@ import './App.css';
 // Arrow function import
 // import Arrow from './components/FunctionalAndClass/Arrow';
 // StateUse file import here
-import State from './components/FunctionalAndClass/State';
+// import State from './components/FunctionalAndClass/State';
+// import renderAndHydrate file here
+// import RenderAndHydrate from './components/reactDom/renderAndhydrate'
+// import findDOMNode file here
+import FindDOMNode from './components/reactDom/findDOMNode';
 
 
 function App() {
@@ -49,11 +53,24 @@ function App() {
   //   </div>
   // )
 
-  return (
-    <div>
-      <State />
-    </div>
-  )
+  // state function
+  // return (
+  //   <div>
+  //     <State />
+  //   </div>
+  // )
+
+  // renderAndHydrate
+  // return (
+  //   <div>
+  //     <RenderAndHydrate />
+  //   </div>
+  // )
+
+  // findDOMNode
+  return (<div><FindDOMNode /></div>)
+
+
 }
 
 export default App;
