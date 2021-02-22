@@ -16,8 +16,9 @@ import './App.css';
 // import FindDOMNode from './components/reactDom/findDOMNode';
 // import Form file here
 // import Form from './components/Form/Form'
-// import Singup file here
-import Singup from './components/Form/SingUp'
+// import Singup and Textarea file here
+import Singup from './components/Form/SingUp';
+import Textarea from './components/Form/Textarea';
 
 
 function App() {
@@ -78,7 +79,10 @@ function App() {
   // return (<div><Form /></div>)
 
   // Singup
-  return (<div><Singup /></div>)
+  return (<div>
+    <Singup />
+    <Textarea />
+  </div>)
 
 
 
