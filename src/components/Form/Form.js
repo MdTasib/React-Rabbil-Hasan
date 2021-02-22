@@ -17,13 +17,20 @@ export default class Form extends Component {
         this.setState({ [name]: value })
     }
 
+
+    onSubmitHandler = () => {
+        alert(this.state.userName);
+    }
+
     render() {
         return (
             <div>
-                <p>My first form</p>
-                <p>{this.state.userName}</p>
-                <input onChange={this.onChangeHandler} name='userName' type='text' placeholder='Your Name' /><br />
-                <input type='submit' value='Submit' />
+                <form onSubmit={this.onSubmitHandler}>
+                    <p>My first form</p>
+                    <p>{this.state.userName}</p>
+                    <input onChange={this.onChangeHandler} name='userName' type='text' placeholder='Your Name' /><br />
+                    <input type='submit' value='Submit' />
+                </form>
             </div>
         )
     }
