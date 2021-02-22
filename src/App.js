@@ -15,7 +15,9 @@ import './App.css';
 // import findDOMNode file here
 // import FindDOMNode from './components/reactDom/findDOMNode';
 // import Form file here
-import Form from './components/Form/Form'
+// import Form from './components/Form/Form'
+// import Singup file here
+import Singup from './components/Form/SingUp'
 
 
 function App() {
@@ -73,7 +75,10 @@ function App() {
   // return (<div><FindDOMNode /></div>)
 
   // form
-  return (<div><Form /></div>)
+  // return (<div><Form /></div>)
+
+  // Singup
+  return (<div><Singup /></div>)
 
 
 
