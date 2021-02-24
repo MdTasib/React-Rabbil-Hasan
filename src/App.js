@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Select from './components/Form/Select';
+import List from './components/Something/List'
 
 
 function App() {
-  // Select
   return (
     <div>
-      <Select />
+      <List />
     </div>
   )
 
