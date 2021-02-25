@@ -33,7 +33,8 @@ const myRouter = (
 
 
 ReactDOM.render(
-  myRouter,
+  // myRouter,
+  <App />,
   document.getElementById('root')
 );
 
