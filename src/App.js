@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import List from './components/Something/List'
 
 
 function App() {
   return (
     <div>
-      <List />
+      <h3>Home page.. wellcome our site</h3>
     </div>
   )
 
