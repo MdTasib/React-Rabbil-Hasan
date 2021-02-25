@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import HttpRequestGet from './components/Something/HttpRequestGet';
+import HttpRequestPost from './components/HttpRequest/HttpRequestPost';
 
 function App() {
   return (
     <div>
       <h1>Ohidul Alam</h1>
-      <HttpRequestGet />
+      <HttpRequestPost />
     </div>
   )
 
